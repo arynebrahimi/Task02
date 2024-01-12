@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(143, 142, 143);
+
+}
+#header {
+    color: black;
+    text-align: center;
+    font-family: "Vazir"; 
+    width: 100%;
+    margin: auto;
+    margin-bottom: 16px;
+    min-width: 320px;
+    /* max-width: none; */
+    img {
+        width: 225px;
+        height: 200px;
+        margin-top: 16px;
+      }
+    
+}
+@media (min-width: 768px)
+{
+    #header {
+        width: 600px;
+    }
+}
+.header{
+        color: black;
+        text-align: center;
+        font-family: "Vazir";
+        img {
+            width: 225px;
+            height: 200px;
+            margin-top: 16px;
+          }
+}
+#form {
+    text-align: center;
+    color: black;
+    margin: auto;
+    /* min-width: 250px;
+    max-width: none; */
+    width: 100%;
+    padding: 10px 0px;
+    border: 8px black outset;
+    /* border-radius: 20%; */
+    font-family: "Vazir";
+}
+
+@media (min-width: 768px)
+{
+    #form {
+        width: 600px;
+    }
+}
+@media (max-width: 768px)
+{
+    #form {
+        width: 320px;
+    }
+}
+
+
+@media (width: 320px)
+{
+    #form {
+        width: 250px;
+    }
+}
+
+#style {
+    text-align: center;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border: 8px black inset;
+    /* border-radius: 20%; */
+    font-family: "Vazir";
+    
+}
+
+@media (min-width: 768px)
+{
+    #style {
+        width: 600px;
+    }
+}
+@media (max-width: 768px)
+{
+    #style {
+        width: 320px;
+    }
+}
+
+
+@media (width: 320px)
+{
+    #style {
+        width: 250px;
+    }
+}
+a[href] {
+    color: blue;
+}
+#button:hover {
+    font-weight: bold;
+}
+#button {
+    background-color: gray; 
+    border: 4px black solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
